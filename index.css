@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200&display=swap');
+
+* {
+font-family: 'Roboto Mono', monospace;
+}
+
+nav {
+    padding-top: 20px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.headerButton {
+    display: inline-block;
+    height: 62px;
+    width: 150px;
+    border-radius:10px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.headerButton a {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    padding: 10px;
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+}
+
+#planLink {
+    background-color:#FF764E;
+}
+#learnLink {
+    background-color:#5ED3EB;
+}
+
+#getInvolvedLink {
+    background-color:#FFCD69;
+}
+
+#topSection {
+    width: 100%;
+    text-align: center;
+}
+
+#topSection div {
+    display: inline-block;
+    height: 100%;
+}
+
+
+#mainImage {
+    height: 200px;
+    width: 200px;
+    border-radius: 200px;
+}
+
+h1 {
+    font-family: 'Chelsea Market', cursive;
+}
+
+.parkInfo {
+}
+
+#alwaysOpen {
+    display:inline-block;
+    height:50px;
+    width: 300px;
+    margin-top:-5px;
+    text-align: center;
+}
+.aboutBox {
+    clear:both;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 15px;
+    padding:2px;
+    color:white;
+    text-align:center;
+    background-color: #DDB9A3;
+}
+.fireIcon {
+    height: 100px;
+    width: 100px;
+    padding-top:10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.fireText {
+    text-align: center;
+    font-size: 10px;
+    padding: -10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.rvIcon {
+    height: 100px;
+    width: 100px;
+    padding-top: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.rvText {
+    text-align: center;
+    font-size: 10px;
+    padding: -10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+footer {
+    background-color:#F9E7DC;
+}
